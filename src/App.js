@@ -22,7 +22,7 @@ class App extends Component {
               <WriteMedium number="4" activityheader="Barbed wire is often made of steel, which is primarily iron, and coated with zinc. Compare the number of particles and the mass of 1 mol of each." />
               <MultipleChoice number="5" activityheader="Calculate the mass of each element." options={['5.22 mol of He', 'Random', 'Thanks']}/>
             <div className="assignment-controls">
-              <a className="assignment-finish" href="">Finish</a>
+              <a className="assignment-finish" href="">Finish!</a>
             </div>
           </div>
         </div>
