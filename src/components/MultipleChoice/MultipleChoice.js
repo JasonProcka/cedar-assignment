@@ -11,11 +11,11 @@ class MultipleChoice extends Component {
             <div className="activity-header">{this.props.activityheader}</div>
             <div className="multiple-choice-option">
               <input type="radio" id="activity-option" name="activity-option" />
-              <label for="activity-option"><span></span>{this.props.options[0]}</label>
+              <label htmlFor="activity-option"><span></span>{this.props.options[0]}</label>
             </div>
             <div className="multiple-choice-option">
               <input type="radio" id="activity-option" name="activity-option" />
-              <label for="activity-option"><span></span>{this.props.options[1]}</label>
+              <label htmlFor="activity-option"><span></span>{this.props.options[1]}</label>
             </div>
           </div>
         </div>
