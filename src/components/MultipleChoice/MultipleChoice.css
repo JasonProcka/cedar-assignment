@@ -1,0 +1,48 @@
+.multiple-choice-option {
+  margin-bottom: 4px;
+}
+
+.multiple-choice-option label {
+
+}
+
+.multiple-choice-option label:hover {
+  cursor: pointer;
+}
+
+.multiple-choice-option input[type="radio"] {
+    display: none;
+}
+
+.multiple-choice-option input[type="radio"] + label {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.multiple-choice-option input[type="radio"] + label span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: -1px 10px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.multiple-choice-option input[type="radio"] + label span {
+     background-color: #f39c12;
+}
+
+.multiple-choice-option input[type="radio"]:checked + label span{
+     background-color: #f39c12;
+}
+
+.multiple-choice-option input[type="radio"] + label span,
+.multiple-choice-option input[type="radio"]:checked + label span {
+  -webkit-transition:background-color 0.4s linear;
+  -o-transition:background-color 0.4s linear;
+  -moz-transition:background-color 0.4s linear;
+  transition:background-color 0.4s linear;
+}
