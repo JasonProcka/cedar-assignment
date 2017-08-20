@@ -1,13 +1,16 @@
-import React from 'react';
-import Assignment from './modules/Assignment/Assignment';
-import { Switch, Route } from 'react-router-dom';
+import React from 'react'
+import { Switch, Route } from 'react-router-dom'
+// Pages
+import SelectTextbook from './modules/SelectTextbook/SelectTextbook'
+import Assignment from './modules/Assignment/Assignment'
 
 const Main = () => (
   <div>
     <Switch>
-      <Route path="/" component={Assignment}/>
+      <Route exact path="/" component={Assignment}/>
+      <Route path="/textbook" component={SelectTextbook} />
     </Switch>
   </div>
-);
+)
 
-export default Main;
+export default Main
