@@ -1,0 +1,91 @@
+.App {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  border-top: 2px solid #f39c12;
+}
+
+.assignment-wrapper {
+  margin: auto;
+  margin-top: 30px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  max-width: 1200px;
+}
+
+.assignment-header {
+  text-align: center;
+  margin: 30px 30px;
+}
+
+.assignment-header h2 {
+  margin: 0 0 10px 0;
+}
+
+.assignment-header p {
+  margin: 0;
+}
+
+.assignment-body {
+  border-radius: 3px;
+  padding: 30px;
+  padding-bottom: 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,.1);
+  background-color: #FFF;
+  overflow: hidden;
+}
+
+/* Assignment activity styling */
+
+.number {
+  display: inline;
+  vertical-align: top;
+  color: #afafaf;
+  font-weight: 300;
+  margin-right: 10px;
+  position: absolute;
+}
+
+.assignment-activity {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.activity-header {
+  margin-bottom: 12px;
+}
+
+.activity-content {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Activity Inputs */
+
+.activity-text-input {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-bottom: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 10px rgba(0,0,0,.1); */
+}
+
+.activity-text-input:focus {
+  outline: 0;
+}
+
+/* Assignment controls */
+
+.assignment-finish {
+  display: block;
+  float: right;
+  padding: 10px 12px;
+  background-color: #f39c12;
+  color: #FFF;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 0;
+  box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
