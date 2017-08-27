@@ -10,6 +10,7 @@ import {
   Link
 } from 'react-router-dom';
 
+import AssignmentOrder from './model/assignment';
 
 // Activities
 import WriteMedium from './components/WriteMedium/WriteMedium'
@@ -23,7 +24,7 @@ class App extends Component {
     return (
       <Router>
         <div id="App">
-           <Route exact path="/assignment" component={Assignment}/>
+           <Route exact path="/assignment"  render={(props) => (<Assignment {...props} assignment={AssignmentOrder}/>)} />
            <Route exact path="/" component={Home}/>
         </div>
       </Router>

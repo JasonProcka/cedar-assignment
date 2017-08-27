@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
+import { Link } from 'react-router-dom';
 import Nav from '../../components/Nav/Nav';
 
 class Home extends Component {
@@ -7,7 +8,7 @@ class Home extends Component {
     return (
       <div id="Home">
         <h1>Create Dynamic Assignments with Machine Learning</h1>
-        <button className="btn">Get Started</button>
+        <Link to="/assignment"><button className="btn">Get Started</button></Link>
       </div>
     )
   }
