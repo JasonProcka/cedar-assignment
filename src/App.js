@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 import "./App.css";
 
 // Router
@@ -8,6 +9,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+
 
 // Activities
 import WriteMedium from './components/WriteMedium/WriteMedium'
