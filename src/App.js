@@ -1,11 +1,22 @@
- import React, { Component } from 'react';
-import './App.css';
-import Nav from './Nav/Nav';
-import NavDrawer from './NavDrawer/NavDrawer';
-import Main from './Main.js';
+import React, { Component } from 'react';
+
+import "./App.css";
+
+// Router
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom';
+
+import AssignmentOrder from './model/assignment';
+
 // Activities
 import WriteMedium from './components/WriteMedium/WriteMedium'
 import MultipleChoice from './components/MultipleChoice/MultipleChoice'
+
+import Home from './scenes/Home/Home';
+import Assignment from './scenes/Assignment/Assignment';
 
 class App extends Component {
   render() {
@@ -20,5 +31,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;

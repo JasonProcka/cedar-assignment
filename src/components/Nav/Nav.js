@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Nav.css'
-import CedarLogo from '../images/logo-orng.png'
+import CedarLogo from '../../images/logo-orng.png'
 
 class Nav extends Component {
   render() {
