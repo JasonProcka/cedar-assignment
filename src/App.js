@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+ import React, { Component } from 'react';
 import './App.css';
 import Nav from './Nav/Nav';
+import NavDrawer from './NavDrawer/NavDrawer';
 import Main from './Main.js';
 // Activities
 import WriteMedium from './components/WriteMedium/WriteMedium'
@@ -10,8 +11,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Nav />
-        <Main />
+        <NavDrawer />
+        <div className="app-container">
+          <Nav />
+          <Main />
+        </div>
       </div>
     );
   }
