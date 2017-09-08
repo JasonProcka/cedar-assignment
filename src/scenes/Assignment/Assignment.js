@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Assignment.css';
-import Nav from '../../components/Nav/Nav';
 // Activities
 import WriteMedium from '../../components/WriteMedium/WriteMedium'
 import MultipleChoice from '../../components/MultipleChoice/MultipleChoice'
@@ -25,7 +24,6 @@ class Assignment extends Component {
     console.log(assignments);
     return (
       <div className="Assignment">
-        <Nav />
         <div className="assignment-wrapper">
           <div className="assignment-header">
             <h2>{this.props.assignment.name}</h2>

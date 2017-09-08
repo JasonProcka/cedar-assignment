@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import NavDrawer from './NavDrawer/NavDrawer';
-import Nav from './components/Nav/Nav';
 import Main from './Main';
 
 import "./App.css";
@@ -28,7 +27,6 @@ class App extends Component {
       <div>
         <NavDrawer />
         <div className="app-content" style={{marginLeft: 260}}>
-          <Nav />
           <Main />
         </div>
       </div>
