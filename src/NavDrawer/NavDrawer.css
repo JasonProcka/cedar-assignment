@@ -9,11 +9,6 @@
 
 /* Continued */
 
-v-navigation {
-    width: 260px;
-    float: left;
-}
-
 .nav-custom {
     display: block;
     width: 260px;
@@ -99,7 +94,7 @@ v-navigation {
     -webkit-font-smoothing: antialiased;
 }
 
-.nav-custom .upper-items .label {
+/* .nav-custom .upper-items .label {
     color: #BDBDBD;
     text-decoration: none;
     padding: 0px;
@@ -134,7 +129,7 @@ v-navigation {
     -webkit-transition:.3s;
     transition: .3s;
     position: relative;
-}
+} */
 
 .nav-custom .upper-items .link a:hover {
     color: #03A9F4;

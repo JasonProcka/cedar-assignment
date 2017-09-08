@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './MultipleChoice.css'
 
 class MultipleChoice extends Component {
-  render() {
+  render() { 
     return (
       <div className="MultipleChoice">
         <div className="assignment-activity">

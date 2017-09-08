@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+import NavDrawer from './NavDrawer/NavDrawer';
+import Nav from './components/Nav/Nav';
+import Main from './Main';
+
 import "./App.css";
 
 // Router
@@ -23,7 +27,7 @@ class App extends Component {
     return (
       <div>
         <NavDrawer />
-        <div className="app-container">
+        <div className="app-content" style={{marginLeft: 260}}>
           <Nav />
           <Main />
         </div>
@@ -31,4 +35,5 @@ class App extends Component {
     );
   }
 }
+
 export default App;

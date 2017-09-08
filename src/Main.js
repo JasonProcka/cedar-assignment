@@ -5,12 +5,12 @@ import SelectTextbook from './modules/SelectTextbook/SelectTextbook'
 import Assignment from './modules/Assignment/Assignment'
 
 const Main = () => (
-  <div>
+  <main>
     <Switch>
-      <Route exact path="/" component={Assignment}/>
+      <Route exact path="/" component={Assignment} />
       <Route path="/textbook" component={SelectTextbook} />
     </Switch>
-  </div>
+  </main>
 )
 
 export default Main
