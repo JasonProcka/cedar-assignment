@@ -11,9 +11,9 @@ class NavDrawer extends Component {
           <div className="inner-nav">
             <ul className="upper-items">
               <li className="label" style={upperItems.label}>Navigation</li>
+              <li className="link" style={upperItems.linkDiv}><a href="" className="waves-effect" style={upperItems.link}>Dashboard</a></li>
               <li className="link" style={upperItems.linkDiv}><a href="" className="waves-effect" style={upperItems.link}>Create Assignment</a></li>
-              <li className="link" style={upperItems.linkDiv}><a href="" className="waves-effect" style={upperItems.link}>Find Room</a></li>
-              <li className="link" style={upperItems.linkDiv}><a href="" className="waves-effect" style={upperItems.link}>Unlock Features</a></li>
+              <li className="link" style={upperItems.linkDiv}><a href="" className="waves-effect" style={upperItems.link}>Classes</a></li>
             </ul>
           </div>
           <div className="nav-push-div"></div>
@@ -31,7 +31,7 @@ var upperItems = {
     padding: 0,
     marginBottom: 0,
     letterSpacing: 0.5,
-    fontFamily: 'Lato , sans-serif',
+    fontFamily: 'Fira Sans , sans-serif',
     fontSize: 0.8 + 'em',
     paddingBottom: 7,
     fontWeight: 400,
@@ -42,7 +42,7 @@ var upperItems = {
     color: '#FFF',
     letterSpacing: .5 + 'px',
     borderRadius: 0,
-    fontFamily: 'Lato, sans-serif',
+    fontFamily: 'Fira Sans, sans-serif',
     fontSize: 13 + 'px',
     fontWeight: 400
   },
@@ -51,8 +51,8 @@ var upperItems = {
     textDecoration: 'none',
     paddingTop: 6,
     paddingBottom: 6,
-    paddingLeft: 20,
-    paddingRight: 20,
+    paddingLeft: 32,
+    paddingRight: 32,
     lineHeight: 40 + 'px',
     display: 'block',
     verticalAlign: 'middle',
@@ -62,6 +62,13 @@ var upperItems = {
     WebkitTransition: .3 + 's',
     transition: .3 + 's',
     position: 'relative',
+    // ':hover': {
+    //   color: '#03A9F4',
+    //   textDecoration: 'none',
+    //   '-webkit-box-shadow': 'inset 2px 0px 0px 0px rgba(3,169,244,1)',
+    //   '-moz-box-shadow': 'inset 2px 0px 0px 0px rgba(3,169,244,1)',
+    //   'box-shadow': 'inset 2px 0px 0px 0px rgba(3,169,244,1)'
+    // }
   }
 }
 

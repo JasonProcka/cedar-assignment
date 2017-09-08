@@ -6,7 +6,6 @@ class Nav extends Component {
   render() {
     return (
       <div className="Nav">
-        <img width="40px" height="40px" className="cedar-logo" src={CedarLogo} alt="logo" />
       </div>
     )
   }
